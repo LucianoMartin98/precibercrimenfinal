@@ -1,0 +1,93 @@
+@import "mixin";
+@import "mediaquery";
+@import "animaciones";
+@import "navbar";
+@import "footer";
+
+/* HOME INTRO */
+.home__intro {
+    background-image: url(../img/background-intro.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.intro__titulo {
+    font-size: 5rem;
+}
+
+.intro__texto {
+    @include animation-ease;
+}
+
+.intro__img {
+    @include animation-ease;
+}
+
+/* SECCION CHARLAS */
+.seccion__charlas {
+    background-color: #f5f3f4;
+}
+.charlas__boton{
+    background-color: #8ac926;
+    color: white;
+}
+.charlas__titulo {
+    font-size: 3rem;
+}
+
+/* SECCION SUSCRIPCION EMAIL */
+.seccion__suscripcion {
+    background-color: #90e0ef;
+}
+
+.suscripcion__titulo {
+    font-size: 2.4rem;
+}
+
+.suscripcion__descripcion {
+    font-size: 1.5rem;
+}
+
+.label__suscripcion {
+    @extend .suscripcion__descripcion
+
+}
+
+
+
+/* CONTACTO */
+.contacto__titulo {
+    font-size: 3rem;
+}
+
+.contacto__descripcion {
+    font-size: 2rem;
+}
+
+.contacto__descripcion2 {
+    font-size: 1.3rem;
+}
+
+.textemail_area {
+    padding-top: 3rem;
+}
+.seccion__contacto{
+    width: 40rem;
+}
+
+/* NOTICIAS */
+.card {
+    transition: all 0.3s;
+}
+
+.card:hover {
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+/* NOSOTROS */
+.nosotros__avatar{
+    width: 16rem;
+}

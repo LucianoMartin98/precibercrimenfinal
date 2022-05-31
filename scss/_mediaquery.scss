@@ -1,0 +1,9 @@
+@media screen and (max-width: 768px) {
+    .intro__img {
+        display: none;
+    }
+
+    .home__intro {
+        background-image: url(../img/background-intro-mobile.svg) !important;
+    }
+}

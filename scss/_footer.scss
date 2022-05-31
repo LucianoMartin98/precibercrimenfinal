@@ -1,0 +1,38 @@
+/* FOOTER */
+footer {
+    background-color: #ee5c68;
+    padding: 2rem 0 1rem 0;
+}
+
+.footer__descripcion {
+    color: white;
+    font-weight: 350;
+}
+
+.footer__email {
+    color: white;
+    padding-left: 9rem;
+}
+
+.footer__redes {
+    list-style: none;
+    display: flex;
+    gap: 4rem;
+    flex-wrap: wrap;
+    padding-left: 10rem;
+}
+
+.footer__contacto {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.i__redes {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.i__email {
+    font-size: 1.5rem;
+}
